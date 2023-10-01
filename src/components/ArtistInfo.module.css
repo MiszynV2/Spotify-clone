@@ -1,0 +1,90 @@
+.ArtistInfoWrapper {
+  height: 374px;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    0deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgb(35, 61, 34) 100%
+  );
+}
+.gridWrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "subtitles ."
+    "shareWrapper play";
+}
+.spotifyImgWrapper {
+  width: 100%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+.spotifyImg {
+  height: 166px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 90px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  grid-area: subtitles;
+}
+
+h1,
+h2 {
+  margin-left: 15px;
+  color: white;
+}
+.shareImg {
+  width: 25px;
+  padding-left: 20px;
+}
+.dotsImg {
+  width: 30px;
+  padding-left: 20px;
+}
+
+.shareButton {
+  width: 90px;
+  height: 32px;
+  margin-left: 15px;
+  border-radius: 50px;
+  border-style: none;
+}
+.shareWrapper {
+  display: flex;
+  margin-top: 20px;
+  grid-area: shareWrapper;
+}
+.greenCircle {
+  width: 56px;
+  height: 56px;
+  background-color: #1abc54;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+}
+.playImg {
+  width: 20px;
+}
+.playImgWrapper {
+  grid-area: play;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

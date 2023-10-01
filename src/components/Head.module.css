@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Dostosuj do swoich potrzeb */
+  z-index: 1000; /* Ustal odpowiednią wartość indeksu warstwy */
+  background-color: rgb(13, 26, 15);
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  height: 60px;
+  align-items: center;
+}
+
+.searchLogo {
+  width: 25px;
+}
+
+.spotifyLogo {
+  height: 35px;
+  margin-left: 10px;
+}
+
+.HeaderButton {
+  border-radius: 50px;
+  width: 186px;
+  height: 34px;
+  border-color: white;
+  border-style: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.burgerLogo {
+  width: 30px;
+  padding-right: 10px;
+}

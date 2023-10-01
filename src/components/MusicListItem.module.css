@@ -1,0 +1,124 @@
+.listItemWrapper {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+.dotsImg {
+  width: 25px;
+  margin-right: 10px;
+  color: white;
+}
+
+.listItemImg {
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+}
+
+.imgTextWrapper {
+  display: flex;
+  margin-left: 10px;
+}
+.textWrapper {
+  margin-left: 10px;
+}
+
+span {
+  color: white;
+  margin: 0;
+}
+p {
+  color: #716e6e;
+  margin: 0;
+}
+.listItemImage {
+  width: 45px;
+  height: 45px;
+}
+.titleSpanPlaying {
+  color: #1ed760;
+}
+/* Add these styles to your CSS file */
+audio {
+  width: 10px;
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Customize the appearance of the audio controls */
+audio::-webkit-media-controls-panel {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Style the progress bar */
+audio::-webkit-media-controls-timeline {
+  background-color: #535353;
+  height: 5px;
+  border-radius: 2px;
+}
+
+/* Style the progress bar thumb */
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-elapsed-time-display {
+  color: white;
+  font-size: 12px;
+}
+
+/* Style the play/pause button */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  background-color: #1ed760;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Style the volume and mute controls */
+audio::-webkit-media-controls-volume-slider {
+  background-color: transparent;
+  height: 6px;
+}
+
+audio::-webkit-media-controls-volume-slider-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the volume thumb */
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider-thumb {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Hide the default audio controls */
+audio::-webkit-media-controls {
+  display: none;
+}
+.playingIndicator {
+  width: 30px;
+  height: 40px;
+}
+.playingIndicator img {
+  width: 30px;
+  height: 40px;
+}

@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+  color: white;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.textWrapper {
+  flex: 1;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.acceptButton {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.acceptButton:hover {
+  background-color: #1ed760;
+}
