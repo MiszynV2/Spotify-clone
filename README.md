@@ -1,7 +1,7 @@
 <p align="center">
   <img
     width="400"
-    src="https://raw.githubusercontent.com/your-username/your-repo/master/path/to/your/image.png"
+    src="https://raw.githubusercontent.com/MiszynV2/WM-mutify/main/src/sources/OG_RAT.jpg"
     alt="WM-Mutify - Spotify-inspired Music Player"
   />
 </p>
