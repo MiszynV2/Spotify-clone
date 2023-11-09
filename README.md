@@ -1,7 +1,7 @@
 <p align="center">
   <img
-    width="200"
-    height="200"
+    width="400"
+    height="800"
     src="https://raw.githubusercontent.com/MiszynV2/WM-mutify/main/src/sources/titleScreen.png"
     alt="WM-Mutify - Spotify-inspired Music Player"
   />
