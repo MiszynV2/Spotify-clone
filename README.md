@@ -2,7 +2,7 @@
   <img
     width="200"
     height="200"
-    src="https://raw.githubusercontent.com/MiszynV2/WM-mutify/main/src/sources/OG_RAT.jpg"
+    src="https://raw.githubusercontent.com/MiszynV2/WM-mutify/main/src/sources/titleScreen.png"
     alt="WM-Mutify - Spotify-inspired Music Player"
   />
 </p>
