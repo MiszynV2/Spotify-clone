@@ -1,3 +1,7 @@
+
+
+<h1 align="center">WM-Mutify - Spotify-inspired Music Player</h1>
+
 <p align="center">
   <img
     width="400"
@@ -7,8 +11,6 @@
   />
 </p>
 
-
-<h1 align="center">WM-Mutify - Spotify-inspired Music Player</h1>
 
 WM-Mutify is a music player project inspired by Spotify, built using React and bootstrapped with Create React App. The primary functionality of this project is to play songs from a predefined playlist.
 
